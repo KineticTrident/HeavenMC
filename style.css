@@ -108,11 +108,11 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
-    transition: color 1s 2s ease-in-out;
+    transition: font-size -1s 1s ease-in-out;
 }
 
 .nav-con a:hover {
-    color: aqua;
+    font-size: larger;
 }
 
 /* INFORMATION SECTION */
