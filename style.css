@@ -40,7 +40,7 @@
 
 /* HERO AREA CONTAINING LOGO OF HEAVENMC */
 .hero-main {
-    height: 400px;
+    height: 500px;
     border-bottom: 2px solid black;
     display: flex;
     justify-content: center;
@@ -51,12 +51,12 @@
 }
 
 .hero-logo {
-    height: 250px;
-    width: 450px;
+    height: 310px;
+    width: 710px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(Logo.png);
+    background-image: url(Logo2.png);
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: logo;
@@ -68,12 +68,12 @@
 
 @keyframes logo {
     from {
-        height: 230px;
-        width: 430px;
+        height: 160px;
+        width: 240px;
     }
     to {
-        height: 250px;
-        width: 450px;
+        height: 170px;
+        width:250px;
     }
 }
 
@@ -395,7 +395,7 @@ footer {
 
 .lifesteal {
     height: fit-content;
-    min-width: 450px;
+    min-width: fit-content;
     max-width: 1800px;
     padding: 20px;
     display: flex;
@@ -406,7 +406,8 @@ footer {
 
 .Trident {
     height: 80px;
-    width: 450px;
+    min-width: fit-content;
+    max-width: 450px;
     border: 2px solid red;
     border-radius: 5px;
     padding: 20px;
@@ -416,6 +417,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 10px;
+    justify-content: left;
 }
 
 .Trident-txt {
@@ -424,7 +426,8 @@ footer {
 
 .warden {
     height: 80px;
-    width: 450px;
+    min-width: fit-content;
+    max-width: 450px;
     border: 2px solid rgb(0, 197, 227);
     border-radius: 5px;
     padding: 20px;
@@ -442,7 +445,8 @@ footer {
 
 .immortal {
     height: 80px;
-    width: 450px;
+    min-width: fit-content;
+    max-width: 450px;
     border: 2px solid rgb(232, 205, 0);
     border-radius: 5px;
     padding: 20px;
@@ -460,7 +464,8 @@ footer {
 
 .warrior {
     height: 80px;
-    width: 450px;
+    min-width: fit-content;
+    max-width: 450px;
     border: 2px solid rgb(93, 232, 0);
     border-radius: 5px;
     padding: 20px;
