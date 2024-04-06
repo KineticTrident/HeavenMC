@@ -60,7 +60,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: logo;
-    animation-duration:4s;
+    animation-duration:0.8s;
     animation-timing-function:ease-in-out;
     animation-delay: 1s;
     animation-iteration-count: infinite;
@@ -180,8 +180,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(77, 79, 79);
     cursor: pointer;
-    box-shadow: 3px 3px aqua;
+    box-shadow: 3px 3px rgba(0, 255, 255, 0.658);
     padding: 15px;
+    color: rgba(0, 255, 255, 0.632);
+}
+
+.disbtn:hover {
+    box-shadow: 3px 3px aqua;
     color: aqua;
 }
 
@@ -221,6 +226,19 @@
     font-size: large;
 }
 
+/* PAYMENTS */
+
+#payment {
+    font-size: large;
+}
+
+.pay-tittle {
+    color: rgb(0, 221, 255);
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
 .terms-main {
     border: 2px solid white;
     min-height: 700px;
@@ -243,7 +261,6 @@
 }
 
 .terms-txt {
-    font-size: medium;
     margin-top: 20px;
     padding: 20px;
 }
