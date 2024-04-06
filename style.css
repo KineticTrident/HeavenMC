@@ -188,6 +188,7 @@
 .disbtn:hover {
     box-shadow: 3px 3px aqua;
     color: aqua;
+    background-color: black;
 }
 
 /* TERMS AND CONDITION AS WELL AS GAMEMODES */
@@ -368,4 +369,119 @@ footer {
     color:whitesmoke;
     font-size: larger;
     margin: -7.7px;
+}
+
+
+
+/* RANKS PAGE SECTION STARTING FROM HERE  */
+.rank-area{
+    height: fit-content;
+    background-color: rgb(28, 27, 27);
+    color: aqua;
+}
+
+.rank-tittle {
+    color: rgb(0, 221, 255);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.rank-head {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.lifesteal {
+    height: fit-content;
+    min-width: 450px;
+    max-width: 1800px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Trident {
+    height: 80px;
+    width: 450px;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(227, 0, 0, 0.247);
+    color: rgb(227, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Trident-txt {
+    margin-left: 20px;
+}
+
+.warden {
+    height: 80px;
+    width: 450px;
+    border: 2px solid rgb(0, 197, 227);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(0, 197, 227, 0.247);
+    color: rgb(0, 197, 227);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wardentxt {
+    margin-left: 20px;
+}
+
+.immortal {
+    height: 80px;
+    width: 450px;
+    border: 2px solid rgb(232, 205, 0);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(232, 205, 0, 0.247);
+    color: rgb(232, 205, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.immortal-txt {
+    margin-left: 20px;
+}
+
+.warrior {
+    height: 80px;
+    width: 450px;
+    border: 2px solid rgb(93, 232, 0);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(124, 232, 0, 0.247);
+    color: rgb(101, 232, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.warrior-txt {
+    margin-left: 20px;
+}
+
+.rank-name {
+    font-weight: bold;
+    font-size: large;
+}
+
+.money {
+    color: white;
+    font-weight: bold;
 }
