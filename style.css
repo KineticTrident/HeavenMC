@@ -408,7 +408,7 @@ footer {
     height: 80px;
     min-width: fit-content;
     max-width: 450px;
-    border: 2px solid red;
+    border: 2px solid rgb(227, 0, 0);
     border-radius: 5px;
     padding: 20px;
     background-color: rgba(227, 0, 0, 0.247);
@@ -422,6 +422,13 @@ footer {
 
 .Trident-txt {
     margin-left: 20px;
+}
+
+.Trident:hover {
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgba(227, 0, 0, 0.281);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
 }
 
 .warden {
@@ -443,6 +450,13 @@ footer {
     margin-left: 20px;
 }
 
+.warden:hover {
+    border: 2px solid rgb(0, 221, 255);
+    background-color: rgba(0, 197, 227, 0.281);
+    color: rgb(0, 221, 255);
+    cursor: pointer;
+}
+
 .immortal {
     height: 80px;
     min-width: fit-content;
@@ -462,6 +476,13 @@ footer {
     margin-left: 20px;
 }
 
+.immortal:hover {
+    border: 2px solid rgb(255, 225, 0);
+    background-color: rgba(232, 205, 0, 0.281);
+    color: rgb(255, 225, 0);
+    cursor: pointer;
+}
+
 .warrior {
     height: 80px;
     min-width: fit-content;
@@ -475,6 +496,13 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.warrior:hover {
+    border: 2px solid rgb(102, 255, 0);
+    background-color: rgba(124, 232, 0, 0.281);
+    color: rgb(111, 255, 0);
+    cursor: pointer;
 }
 
 .warrior-txt {
@@ -516,6 +544,13 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.coin:hover {
+    border: 2px solid rgb(255, 225, 0);
+    background-color: rgba(232, 205, 0, 0.281);
+    color: rgb(255, 225, 0);
+    cursor: pointer;
 }
 
 .coin-txt {
