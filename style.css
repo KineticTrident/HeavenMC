@@ -56,7 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(Logo2.png);
+    background-image: url(.png);
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: logo;
@@ -489,4 +489,35 @@ footer {
 .money {
     color: white;
     font-weight: bold;
+}
+
+/* COINS SECTION STARTING FROM HERE */
+.Coins {
+    height: fit-content;
+    min-width: fit-content;
+    max-width: 1800px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.coin {
+    height: 80px;
+    min-width: fit-content;
+    max-width: 450px;
+    border: 2px solid rgb(232, 205, 0);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(232, 205, 0, 0.247);
+    color: rgb(232, 205, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.coin-txt {
+    margin-left: 20px;
 }
